@@ -21,6 +21,13 @@ public class Book {
         return "\"" + this.title + "\" by " + this.author;
     }
 
+    public boolean equals(Book other) {
+        if (this.title.equals(other.title) && this.author.equals(other.author)) {
+            return true;
+        }
+        return false;
+    }
+
     public String getTitle() {
         return this.title;
     }

@@ -6,7 +6,11 @@ In this unit we will be introducing a new kind of object relationships: inherita
 
 This section covers the following material:
 
-- 
+- Polymorphisms
+- Compile-Time and Run-Time for Polymorphisms
+- Data Structures with Polymorphisms
+- `Object` Superclass
+    - `equals()` Method
 
 To use this repository, start with the `notes.md` document, referencing the various `.java` documents as you go to see the examples in action.
 

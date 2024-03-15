@@ -20,6 +20,13 @@ public class Textbook extends Book {
         return this.subject + " Textbook \"" + super.getTitle() + "\", Edition " + this.edition + " by " + super.getAuthor();
     }
 
+    public boolean equals(Textbook other) {
+        if (super.equals(other) && this.edition == other.edition) {
+            return true;
+        }
+        return false;
+    }
+
     public String getSubject() {
         return this.subject;
     }
