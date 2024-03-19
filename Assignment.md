@@ -42,6 +42,7 @@ Constructors:
 
 Methods:
 - `toString` method for printing
+- `equals` method
 - Accessor and Mutator methods for all instance variables
 
 ## `Kid` (subclass of `Child`)
@@ -60,6 +61,7 @@ Constructors:
 
 Methods:
 - `toString` method for printing
+- `equals` method
 - Accessor and Mutator methods for all instance variables
 
 ## `Teenager` (subclass of `Child`)
@@ -78,6 +80,7 @@ Constructors:
 
 Methods:
 - `toString` method for printing
+- `equals` method
 - Accessor and Mutator methods for all instance variables
 
 ## `Adult` (subclass of `Person`)
@@ -95,4 +98,5 @@ Constructors:
 
 Methods:
 - `toString` method for printing
+- `equals` method
 - Accessor and Mutator methods for all instance variables
