@@ -12,6 +12,8 @@ public class Runner {
         System.out.println("get/set Height Test: " + child1.getHeight());
         child1.setGradeLevel(-1);
         System.out.println("get/set Grade Level Test: " + child1.getGradeLevel());
+        Child child2 = new Baby("Name", 2023, 24.5, 32.4, 0, false);
+        System.out.println("equals Test: " + child1.equals(child2));
         
         // Tests of a Baby stored as a Person
         System.out.println("Baby as Person Tests");
