@@ -1,5 +1,5 @@
 public class Runner {
-    public static void runner() {
+    public static void main(String[] args) {
         // Tests of a Baby stored as a Child
         System.out.println("Baby as Child Tests");
         Child child1 = new Baby("Name", 2023, 24.5, 32.4, 0, false);
